@@ -1,3 +1,6 @@
+alert("Do you want to have some fun? Press or click any of the keys you see to trigger a drum sound. From these keys, you can create your own beat");
+
+
 //BUTTON PRESSES
 for(var i=0; i <document.querySelectorAll(".drum").length; i++){
     document.querySelectorAll(".drum")[i].addEventListener("click", function() {
@@ -69,6 +72,7 @@ function buttonAnimation(Currentkey){
 
 
 };
+
 
 
 
